@@ -1,6 +1,8 @@
 
 # BPF tracing shell commands to immudb
 
+This self-contained program sends every entered bash command in the system to immudb.
+
 ## Introduction
 
 The BPF ecosystem tools include in addition to the probe framework, many interesting examples, like hooking into bash readline using uprobes:
